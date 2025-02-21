@@ -1,0 +1,59 @@
+{
+  "10th": {
+      "subcategories": ["Intermediate", "Diploma", "Vocational Courses", "Specialized Training"],
+      "roadmap": {
+          "Intermediate": "Choose streams like MPC, BiPC, Computer Science, or Arts to align with your career aspirations. Ideal for students planning further academic pursuits.",
+          "Diploma": "Enroll in a 3-year diploma program in engineering, fashion design, hotel management, or other fields for focused skill development and early employment opportunities.",
+          "Vocational Courses": "Opt for short-term vocational courses like electrical work, plumbing, beauty and wellness, or auto mechanics to acquire practical skills for immediate job roles.",
+          "Specialized Training": "Consider specialized programs in areas like coding, digital marketing, animation, or graphic design to stay ahead in emerging fields."
+      }
+  },
+  "Intermediate": {
+      "subcategories": ["MPC", "BiPC", "Computer Science", "Commerce", "Arts", "Vocational Studies"],
+      "roadmap": {
+          "MPC": "Study Math, Physics, and Chemistry for careers in engineering, data science, aviation, or technical research. Prepares you for JEE, EAMCET, or similar entrance exams.",
+          "BiPC": "Focus on Biology, Physics, and Chemistry to pursue careers in medicine, biotechnology, pharmacy, or environmental sciences. Leads to NEET or related exams.",
+          "Computer Science": "Learn programming, databases, and IT fundamentals to prepare for software development, cybersecurity, or tech careers.",
+          "Commerce": "Gain insights into accounting, economics, and business studies, paving the way for CA, MBA, or entrepreneurial ventures.",
+          "Arts": "Delve into subjects like history, political science, or fine arts, opening doors to creative fields, journalism, or civil services.",
+          "Vocational Studies": "Study applied courses like multimedia, event management, or logistics to gain industry-ready skills for specialized job roles."
+      }
+  },
+  "Degree": {
+      "subcategories": ["Engineering", "Medicine", "Commerce", "Arts", "Science", "Management", "Law"],
+      "roadmap": {
+          "Engineering": "Pursue B.Tech, BE, or B.Arch in diverse branches like AI, Civil, Mechanical, Aerospace, or Environmental Engineering. Involves innovation and practical problem-solving.",
+          "Medicine": "Study MBBS, BDS, BHMS, or allied health sciences like physiotherapy or radiology to build a career in healthcare and research.",
+          "Commerce": "Opt for B.Com, BBA, or related programs with specializations in finance, taxation, or international business for a dynamic corporate career.",
+          "Arts": "Explore BA programs in Sociology, Psychology, Literature, Fine Arts, or Languages for a blend of creativity and analytical thinking.",
+          "Science": "Pursue B.Sc in Physics, Chemistry, Mathematics, Data Science, or Biotechnology for roles in academia, R&D, or industry.",
+          "Management": "Consider BBA or BBM programs focusing on leadership, marketing, or supply chain management for business-oriented careers.",
+          "Law": "Enroll in a 5-year integrated LLB program like BA LLB, BBA LLB, or specialize in intellectual property or corporate law."
+      }
+  },
+  "Diploma": {
+      "subcategories": ["Engineering", "Fashion Design", "Hotel Management", "Nursing", "Graphic Design", "Automobile Mechanics", "Digital Marketing"],
+      "roadmap": {
+          "Engineering": "Learn technical skills in Civil, Electrical, Mechanical, or Electronics engineering, leading to technician roles or lateral entry to engineering degrees.",
+          "Fashion Design": "Master design concepts, textiles, and tailoring techniques for a career in apparel design and fashion merchandising.",
+          "Hotel Management": "Train in hospitality, catering, and tourism with opportunities in luxury hotels or the cruise industry.",
+          "Nursing": "Acquire practical healthcare skills, paving the way for careers in clinical settings, elder care, or paramedical services.",
+          "Graphic Design": "Learn software like Photoshop and Illustrator for roles in advertising, branding, or multimedia creation.",
+          "Automobile Mechanics": "Gain expertise in vehicle repair, maintenance, and diagnostics, preparing you for jobs in the automobile sector.",
+          "Digital Marketing": "Understand SEO, social media, and analytics to build a career in online branding and marketing strategies."
+      }
+  },
+  "Vocational Courses": {
+      "subcategories": ["Electrician", "Plumbing", "Beauty and Wellness", "Carpentry", "Auto Mechanics", "Culinary Arts", "Welding", "Coding Bootcamps"],
+      "roadmap": {
+          "Electrician": "Learn electrical systems, wiring, and maintenance to work in residential, commercial, or industrial setups.",
+          "Plumbing": "Master skills in installation and repair of water systems for residential or industrial projects.",
+          "Beauty and Wellness": "Train in makeup, skincare, and spa services for roles in salons, wellness centers, or independent entrepreneurship.",
+          "Carpentry": "Learn woodworking, furniture making, and interior finishing for the construction or interior design industry.",
+          "Auto Mechanics": "Gain practical knowledge in vehicle repair, diagnostics, and maintenance for employment in garages or service centers.",
+          "Culinary Arts": "Train in cooking techniques, bakery, or food presentation for careers in the food and beverage industry.",
+          "Welding": "Develop expertise in welding and fabrication for roles in construction, shipbuilding, or manufacturing industries.",
+          "Coding Bootcamps": "Join intensive programs focusing on web development, app development, or AI to gain high-demand IT skills."
+      }
+  }
+}

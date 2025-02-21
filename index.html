@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Recommendation System</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Career Recommendation System</h1>
+    <label for="category">Select Education Level:</label>
+    <select id="category">
+        <option value="">--Select--</option>
+        {% for option in options %}
+        <option value="{{ option }}">{{ option }}</option>
+        {% endfor %}
+    </select>
+
+    <div id="subcategories-container" style="display:none;">
+        <h3>Available Subcategories:</h3>
+        <ul id="subcategories"></ul>
+    </div>
+
+    <div id="roadmap-container" style="display:none;">
+        <h3>Roadmap:</h3>
+        <p id="roadmap"></p>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            // Handle category selection
+            $('#category').change(function () {
+                const category = $(this).val();
+    
+                // Hide all content if the user selects "--Select--"
+                if (!category) {
+                    $('#subcategories-container').hide();
+                    $('#subcategories').empty();
+                    $('#roadmap-container').hide();
+                    $('#roadmap').text('');
+                    return; // Stop further execution
+                }
+    
+                // Fetch and display subcategories for the selected category
+                $.ajax({
+                    url: '/subcategories',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({ category }),
+                    success: function (data) {
+                        const subcategories = data.subcategories;
+                        $('#subcategories').empty(); // Clear previous subcategories
+                        if (subcategories.length > 0) {
+                            subcategories.forEach(subcategory => {
+                                $('#subcategories').append(
+                                    `<li><button class="subcategory-btn" data-subcategory="${subcategory}">${subcategory}</button></li>`
+                                );
+                            });
+                            $('#subcategories-container').show();
+                        }
+                    }
+                });
+    
+                // Clear previous roadmap content
+                $('#roadmap-container').hide();
+                $('#roadmap').text('');
+            });
+    
+            // Handle subcategory button click
+            $(document).on('click', '.subcategory-btn', function () {
+                const subcategory = $(this).data('subcategory');
+                const category = $('#category').val();
+    
+                // Fetch and display the roadmap for the selected subcategory
+                $.ajax({
+                    url: '/roadmap',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({ category, subcategory }),
+                    success: function (data) {
+                        $('#roadmap').text(data.roadmap);
+                        $('#roadmap-container').show();
+                    }
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>
