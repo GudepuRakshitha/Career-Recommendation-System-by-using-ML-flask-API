@@ -42,9 +42,12 @@ Make sure you have the following installed:
 - *career_data.json*: JSON file with career options and roadmaps.
 - *index.html*: Frontend UI for system interaction.
 
-##Sample Output Pictures
+##  Sample Output Pictures
+
 ![image](https://github.com/GudepuRakshitha/Career-Recommendation-System-by-using-ML-flask-API/blob/359848a4b8537363f7929422b823888bb21c317e/Screenshot%202025-02-19%20220548.png)
+
 ![image](https://github.com/GudepuRakshitha/Career-Recommendation-System-by-using-ML-flask-API/blob/359848a4b8537363f7929422b823888bb21c317e/Screenshot%202025-02-19%20220630.png)
+
 ![image](https://github.com/GudepuRakshitha/Career-Recommendation-System-by-using-ML-flask-API/blob/359848a4b8537363f7929422b823888bb21c317e/Screenshot%202025-02-19%20220842.png)
 
 ## Usage
