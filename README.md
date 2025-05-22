@@ -1,7 +1,5 @@
 # Career-Recommendation-System-by-using-ML-flask-API
 
-# Career Recommendation System
-
 ## Overview
 The *Career Recommendation System* is a web-based AI application with the purpose of helping students and professionals make good career choices. It offers personal career recommendations in accordance with education and interests and career roadmaps for each option.
 
@@ -44,6 +42,11 @@ Make sure you have the following installed:
 - *career_data.json*: JSON file with career options and roadmaps.
 - *index.html*: Frontend UI for system interaction.
 
+##Sample Output Pictures
+![image](https://github.com/GudepuRakshitha/Career-Recommendation-System-by-using-ML-flask-API/blob/359848a4b8537363f7929422b823888bb21c317e/Screenshot%202025-02-19%20220548.png)
+![image](https://github.com/GudepuRakshitha/Career-Recommendation-System-by-using-ML-flask-API/blob/359848a4b8537363f7929422b823888bb21c317e/Screenshot%202025-02-19%20220630.png)
+![image](https://github.com/GudepuRakshitha/Career-Recommendation-System-by-using-ML-flask-API/blob/359848a4b8537363f7929422b823888bb21c317e/Screenshot%202025-02-19%20220842.png)
+
 ## Usage
 1. Choose your education level from the dropdown list.
 2. Select a relevant subcategory.
@@ -54,3 +57,11 @@ Make sure you have the following installed:
 - *Database Support*: Switch to SQL/NoSQL for scalability.
 - *Real-Time Job Market Analysis*: Offer popular career trends.
 
+## 👩‍💻 Author
+Gudepu Rakshitha Reddy
+
+📧 rakshithareddy1985@gmail.com
+
+🔗 Hugging Face Profile: https://huggingface.co/GudepuRakshithaReddy
+
+🔗 LinkedIn:https://www.linkedin.com/in/gudepu-rakshitha-reddy-516aa72a9/
